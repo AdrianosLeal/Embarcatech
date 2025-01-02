@@ -4,17 +4,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="I7KGWg0xgB24yZa9CqtF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-2" target="I7KGWg0xgB24yZa9CqtF-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="I7KGWg0xgB24yZa9CqtF-2" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-1140" width="120" height="60" as="geometry" />
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-2" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-220" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I7KGWg0xgB24yZa9CqtF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-3" target="I7KGWg0xgB24yZa9CqtF-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I7KGWg0xgB24yZa9CqtF-3" value="Inicializa SPI #3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-3" value="Inicializa SPIx5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-4" target="I7KGWg0xgB24yZa9CqtF-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I7KGWg0xgB24yZa9CqtF-4" value="Inicializa Wi-fi" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="-850" width="120" height="60" as="geometry" />
@@ -25,23 +25,61 @@
         <mxCell id="I7KGWg0xgB24yZa9CqtF-7" value="Inicializa serial (debug)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="-950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I7KGWg0xgB24yZa9CqtF-11" value="Inicializa SPI #4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="-1050" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I7KGWg0xgB24yZa9CqtF-13" value="Inicializa SPI #1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="-1050" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I7KGWg0xgB24yZa9CqtF-14" value="Inicializa SPI #5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="-1050" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I7KGWg0xgB24yZa9CqtF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="I7KGWg0xgB24yZa9CqtF-12">
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-22" target="I7KGWg0xgB24yZa9CqtF-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="-1070" as="sourcePoint" />
-            <mxPoint x="90" y="-1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="-610" />
+              <mxPoint x="530" y="-720" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="I7KGWg0xgB24yZa9CqtF-12" value="Inicializa SPI #2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="-1050" width="120" height="60" as="geometry" />
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-22" target="I7KGWg0xgB24yZa9CqtF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-22" value="Wi-fi Conectado?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-24" target="I7KGWg0xgB24yZa9CqtF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-24" value="Autentica Wi-fi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-28" target="I7KGWg0xgB24yZa9CqtF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-28" value="Interpreta dados recebidos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-29" target="I7KGWg0xgB24yZa9CqtF-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-29" value="Atualiza SPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-32" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-572" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-33" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-642" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-36" target="I7KGWg0xgB24yZa9CqtF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-36" value="Coloca os dados nas saídas - Leds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-38" target="I7KGWg0xgB24yZa9CqtF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-38" value="Faz a leitura dos Holders e Sensores Infravermelho" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7KGWg0xgB24yZa9CqtF-41" target="I7KGWg0xgB24yZa9CqtF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I7KGWg0xgB24yZa9CqtF-41" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-1110" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
